@@ -1,14 +1,14 @@
 {
-    "name": "Quit",
+    "name": "LightControl",
     "maps": [
         {
-            "name": "Actions",
-            "id": "69a659ec-643b-4d2e-9734-d1a6bb3f753c",
+            "name": "LightControl",
+            "id": "c136618d-03db-4bb4-a403-bfa6c523ef09",
             "actions": [
                 {
-                    "name": "Quit",
+                    "name": "LightControl",
                     "type": "Button",
-                    "id": "cabc1ef5-4c9c-45d4-9890-3bdbf8a19924",
+                    "id": "b2fcb600-6687-4cd6-b99c-df5308d436ba",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -18,23 +18,23 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "b5b5def0-83fc-495d-bb4f-8032df452b2d",
-                    "path": "<Keyboard>/escape",
+                    "id": "3b41aa8b-46c3-4688-96d6-6e6b08293bc3",
+                    "path": "<Keyboard>/#(L)",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Quit",
+                    "action": "LightControl",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "508d454d-57e9-48b9-a0ea-214709e7892b",
-                    "path": "<XRController>{RightHand}/gripButton",
+                    "id": "da12ad3f-76f7-45c8-81d8-156c03e3bd35",
+                    "path": "<XRController>{LeftHand}/gripButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Quit",
+                    "action": "LightControl",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

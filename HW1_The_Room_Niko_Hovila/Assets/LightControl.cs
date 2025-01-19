@@ -1,19 +1,19 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Quit : MonoBehaviour
+public class LightControl : MonoBehaviour
 {
     public InputActionReference action;
+    public Light light;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        light = GetComponent<Light>();
         action.action.Enable();
-        action.action.performed += (ctx) => {
-            #if UNITY_EDITOR
-                UnityEditor.EditorApplication.isPlaying = false;
-            #else
-                Application.Quit();
-            #endif
+        action.action.performed += ctx =>
+        {
+            light.enabled = !light.enabled;
+            light.color = Color.red;
         };
     }
 

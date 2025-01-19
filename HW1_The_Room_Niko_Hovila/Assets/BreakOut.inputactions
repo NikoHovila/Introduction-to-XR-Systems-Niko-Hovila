@@ -1,14 +1,14 @@
 {
-    "name": "Quit",
+    "name": "BreakOut",
     "maps": [
         {
-            "name": "Actions",
-            "id": "69a659ec-643b-4d2e-9734-d1a6bb3f753c",
+            "name": "BreakOut",
+            "id": "e8bf2b9f-6813-4feb-b17f-2edd5e67f9d9",
             "actions": [
                 {
-                    "name": "Quit",
+                    "name": "BreakOut",
                     "type": "Button",
-                    "id": "cabc1ef5-4c9c-45d4-9890-3bdbf8a19924",
+                    "id": "2ceca1bb-d5f7-4383-9521-e6be8317188d",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -18,23 +18,23 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "b5b5def0-83fc-495d-bb4f-8032df452b2d",
-                    "path": "<Keyboard>/escape",
+                    "id": "77e4465a-f1f4-431a-b57b-1d8072bfb821",
+                    "path": "<Keyboard>/#(B)",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Quit",
+                    "action": "BreakOut",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "508d454d-57e9-48b9-a0ea-214709e7892b",
-                    "path": "<XRController>{RightHand}/gripButton",
+                    "id": "d671f2d4-7e98-40d3-b339-0552d635c95f",
+                    "path": "<XRController>{RightHand}/triggerButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Quit",
+                    "action": "BreakOut",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
