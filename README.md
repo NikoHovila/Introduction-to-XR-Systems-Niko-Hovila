@@ -5,3 +5,4 @@
 # -Curved roof
 # -Window
  
+# To see HW1 code, look at previous commits. HW2 is built on top of HW1.

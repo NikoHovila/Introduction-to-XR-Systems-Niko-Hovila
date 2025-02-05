@@ -30,7 +30,7 @@
                 {
                     "name": "",
                     "id": "508d454d-57e9-48b9-a0ea-214709e7892b",
-                    "path": "<XRController>{RightHand}/gripButton",
+                    "path": "<XRController>{RightHand}/primaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
