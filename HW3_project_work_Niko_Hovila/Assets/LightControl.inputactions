@@ -1,0 +1,45 @@
+{
+    "name": "LightControl",
+    "maps": [
+        {
+            "name": "LightControl",
+            "id": "c136618d-03db-4bb4-a403-bfa6c523ef09",
+            "actions": [
+                {
+                    "name": "LightControl",
+                    "type": "Button",
+                    "id": "b2fcb600-6687-4cd6-b99c-df5308d436ba",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3b41aa8b-46c3-4688-96d6-6e6b08293bc3",
+                    "path": "<Keyboard>/#(L)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LightControl",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "da12ad3f-76f7-45c8-81d8-156c03e3bd35",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LightControl",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

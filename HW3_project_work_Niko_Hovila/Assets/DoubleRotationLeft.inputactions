@@ -1,0 +1,45 @@
+{
+    "name": "DoubleRotationLeft",
+    "maps": [
+        {
+            "name": "DoubleRotationLeft",
+            "id": "0f1d1e54-8142-410c-8e3b-befd659251e6",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "284b8abc-b54c-4b33-a704-305a2eb321ba",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4adcbe48-ed53-4505-855b-45fb2915e8f7",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ead7d189-19aa-491e-95fb-dcdf3f1e76e1",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

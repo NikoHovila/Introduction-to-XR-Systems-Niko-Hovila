@@ -1,0 +1,45 @@
+{
+    "name": "TriggerGrabRight",
+    "maps": [
+        {
+            "name": "TriggerGrabRight",
+            "id": "705452ae-cdb4-4a7f-b3ab-69af16ccae29",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "a69f7b27-eed0-4cb4-bae4-5d2b9ff26518",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "50e059ac-adae-4497-b13c-d387c20a1246",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a0498672-4887-4b52-9e80-adadc040e8dc",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

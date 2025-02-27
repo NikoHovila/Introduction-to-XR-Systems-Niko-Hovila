@@ -1,0 +1,45 @@
+{
+    "name": "Quit",
+    "maps": [
+        {
+            "name": "Actions",
+            "id": "69a659ec-643b-4d2e-9734-d1a6bb3f753c",
+            "actions": [
+                {
+                    "name": "Quit",
+                    "type": "Button",
+                    "id": "cabc1ef5-4c9c-45d4-9890-3bdbf8a19924",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b5b5def0-83fc-495d-bb4f-8032df452b2d",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Quit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "508d454d-57e9-48b9-a0ea-214709e7892b",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Quit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

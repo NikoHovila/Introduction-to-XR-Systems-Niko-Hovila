@@ -1,0 +1,45 @@
+{
+    "name": "TriggerGrabLeft",
+    "maps": [
+        {
+            "name": "TriggerGrabLeft",
+            "id": "aa5cecbc-9485-44b8-8e7a-eba0dd807c72",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "efd7e9c1-64f9-4378-886e-24f61f1775a6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "fff465b1-83b1-4240-ac8b-e2cad0a6f8e0",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fe74bff2-c9ab-4410-9bfa-6b3e703f9bc3",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

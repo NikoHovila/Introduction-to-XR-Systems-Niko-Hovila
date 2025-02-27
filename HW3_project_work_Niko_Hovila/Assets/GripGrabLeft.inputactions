@@ -1,0 +1,45 @@
+{
+    "name": "GripGrabLeft",
+    "maps": [
+        {
+            "name": "GripGrabLeft",
+            "id": "d55c7efc-c984-456b-8fa6-ff59cc51e996",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "438fbd8a-e56e-4f07-88e1-95369659acbf",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2b88e437-15cb-49bd-a988-f99d7f062f2c",
+                    "path": "<XRController>{LeftHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "699d5a15-e9c7-4f06-bdc9-bfbde0fde2ed",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
